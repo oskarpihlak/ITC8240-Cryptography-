@@ -1,0 +1,138 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\input{structure.tex} % Include the file specifying the document structure and custom commands
+
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Cryptography, ITC8240 Assignment \#1} % Title of the assignment
+
+\author{Oskar Pihlak} % Author name and email address
+
+\date{TalTech --- \today} % University, school and/or department name(s) and a date
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\section*{Introduction} % Unnumbered section
+
+This is the Assignment \#1 submission for the Cryptography course, written in LaTeX.\\
+It's assumed that the shift cipher is defined as \textit{$C_{alpha}$} = ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+
+%----------------------------------------------------------------------------------------
+%	PROBLEM 1
+%----------------------------------------------------------------------------------------
+
+\section{Task 1: Ciphertext evaluation} % Numbered section
+
+Starting with plaintext \textit{$T_{plain}$} = \textbf{BLOCKCHAIN}. \\
+
+$S_1$ is a shift cipher with key $k_{S_1}$ = 9. \\
+All the letters in \textit{$T_{plain}$} will be shifted by 9 characters in the alphabet.\\
+Resulting in \textit{$T_{S_1}$} = \textbf{KUXLTLQJRW}. \\
+ 
+$P_1$ is a permutation cipher with a key $k_{P_1}$ = (5, 1, 3, 2, 4) \\
+Since $k_{P_1}$ length is 5, \textit{$T_{S_1}$} will be splitted into two 5 letter chunks\\
+\begin{math}
+    \mathit{{T_{S_1 chunks}} = [KUXLT, LQJRW]}
+\end{math}\\
+We apply the permutation cipher to each of the chunks and combine them together.\\
+\textit{$T_{S_1 P_1}$} =  \textbf{TKXULWLJQR}
+\\
+
+$S_2$ is a shift cipher with key $k_{S_2}$ = 19. \\
+All the letters in \textit{$T_{S_1 P_1}$} will be shifted by 19 characters in the alphabet.\\
+Resulting in \textit{$T_{S_1 P_1 S_2}$} = \textbf{MDQNE PECJK}. \\
+
+$P_2$ is a permutation cipher with a key $k_{P_2}$ = (3, 1, 4, 2, 5) \\
+Since $k_{P_2}$ length is 5, \textit{$T_{S_1 P_1 S_2}$} will be splitted into two 5 letter chunks\\
+\begin{math}
+    \mathit{{T_{S_1 P_1 S_2 chunks}} = [MDQNE, PECJK]}
+\end{math}\\
+We apply the permutation cipher to each of the chunks and combine them together.\\
+\textit{$T_{S_1 P_1 S_2 P_2}$} =  \textbf{QMNDE CPJEK}
+\\
+\\
+Answer: The Ciphertext is \textbf{QMNDECPJEK}
+
+%----------------------------------------------------------------------------------------
+%	PROBLEM 2
+%----------------------------------------------------------------------------------------
+
+\section{Task 2}
+Starting with plaintext \textit{$T_{plain}$} = \textbf{FRIENDSMAKETHEWORSTENEMIES}. \\
+
+1. Encrypt the plaintext using Vigenere cipher with the key \textit{k} = \textbf{LIST} \\
+The key k will repeat across the the entirety of \textit{$T_{plain}$} (24 characters) resulting in \\
+the \textbf{6\textit{k}} keystream \textit{ks} = LISTLISTLISTLISTLISTLIST; \\ 
+We will use a matrix to map the \textit{$T_{plain}$} into the cipher values.\\ 
+Resulting in \textit{$T_{vignere}$} = QZAXYLKFLSWMSMOHCALXYMEBPA \\\\
+$
+\begin{array}{l|cccc}
+    & A    & B    & \dots  & Z    \\ \hline
+A   & A    & C & \dots  & Z \\
+B   & B    & D & \dots  & A \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\
+Z   & Z    & A & \dots  & Y
+\end{array}
+$\\ \\
+
+
+2. Calculate the index of coincidence of the plaintext.\\
+The index of coincidence can be explained with the given formula.
+\[ IC = \sum_{i=A}^{i=z} \frac{n_i(n_i -1)}{N(N - 1)} \]
+All alphabet letters are looped over. \\
+\textit{$n_i$} is the current letter that is being looped over.\\
+\textit{N} is the total number of letters in the given text\\\\
+IC(\textit{$T_{plain}$}) = \textbf{0.07077}
+\\
+
+3. Calculate the index of coincidence of the ciphertext.\\
+IC(\textit{$T_{vignere}$}) = \textbf{0.03692}
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	PROBLEM 3
+%----------------------------------------------------------------------------------------
+
+\section{Task 3}
+Starting with plaintext \textit{$T_{plain}$} = \textbf{SURFACE} and ciphertext \textit{$T_{ciphered}$} = \textbf{NJCAXTP}. \\
+We know that an affine cipher was used.\\
+
+1. What is the encryption key?\\
+Some of the encryption pairs are (11, 23), (37 23) and (63, 23)\\
+
+
+2. What is the decryption key?\\
+Some of the encryption pairs are (7, 23), (45 23) and (71, 23)\\
+
+
+
+%----------------------------------------------------------------------------------------
+
+
+\section{Task 4}
+Starting with plaintext \textit{$T_{plain}$} = \textbf{SURFACE} and ciphertext \textit{$T_{ciphered}$} = \textbf{NJCAXTP}. \\
+
+
+
+
+%----------------------------------------------------------------------------------------
+
+
+
+\end{document}
