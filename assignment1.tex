@@ -126,13 +126,21 @@ Some of the encryption pairs are (7, 23), (45 23) and (71, 23)\\
 
 
 \section{Task 4}
-Starting with plaintext \textit{$T_{plain}$} = \textbf{SURFACE} and ciphertext \textit{$T_{ciphered}$} = \textbf{NJCAXTP}. \\
-
-
-
+Starting with plaintext \textit{$m_1$} = \textbf{DOUGH} and plaintext \textit{$m_2$} = \textbf{GLORY}. \\
+Message \textit{$m_1$} encryption with \textit{k} resulted in a binary ciphertext \textit{$c_1$} = 1000000110001010001000100.
+Extracting the cipher from \textit{$c_1$} via $\oplus$ operations gives us \textit{$cipher$} = 1001101000100010010000011.
+Using \textit{$cipher$} on \textit{$m_2$} we get the encryption \textit{$c_2$} = 1010100011111111010111011.
 
 %----------------------------------------------------------------------------------------
 
 
+\section{Task 5}
+We have an encryption scheme \textbf{\textit{$c = m \wedge~k$}} to evaluate for perfect secrecy.\\
+A cryptosystem has perfect secrecy if for any message x and any encipherment y, p(x|y)=p(x). \\
+An encryption scheme is perfectly secret if the ciphertext distribution is independent from the message,\\meaning
+every message induces the same ciphertext distribution. \\
+The condition declared in \textit{c} seems to have the message dependent in the encryption meaning the scheme is not secure.
+
+%----------------------------------------------------------------------------------------
 
 \end{document}

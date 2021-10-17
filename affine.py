@@ -109,5 +109,29 @@ if __name__ == "__main__":
     print(affine_decrypt(7, 23, ciphertext))
     #decrypt()
 
+    # Task 4
+    plain_map = get_letter_map("GLORY")
+    for value in plain_map.values():
+        print(bin(value))
 
-  
+
+    glory =          "0011001011011101000111000"
+    glory_ciphered = "1010100011111111010111011"
+
+    dough =                  "0001101110101000011000111"
+    dough_ciphered_certain = "1000000110001010001000100"
+
+    # get the cipher
+    cipher = ""
+    for i in range(0, len(dough)):
+        cipher += "1" if bool(dough[i] == "1") != bool(dough_ciphered_certain[i] == "1") else "0"
+    print("CIPHER", cipher)
+
+    # Use cipher to extract OTP string.
+    ciphering_word = ""
+    for i in range(0, len(dough)):
+        ciphering_word += "1" if bool(glory[i] == "1") != bool(cipher[i] == "1") else "0"
+    print()
+    print(ciphering_word)
+
+    # print(dough_ciphered_certain) # Add value to validate against if needed.
