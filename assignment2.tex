@@ -51,18 +51,18 @@ to send between each other before the key is established.
 The protocol could be the following:\\
 1. A, B, C generate private (secret) keys $A_{sk}, B_{sk}, C_{sk}$ \\
 2. A, B, C generate the public keys $A_{pk} = g^{A_{sk}}, B_{pk} = g^{B_{sk}}, C_{pk} = g^{C_{sk}}$\\
-3. $A \xrightarrow{A_{pk}} B, B \xrightarrow{B_{pk}} C, C \xrightarrow{C_{pk}} A$.\\
+3. $A \xrightarrow{A_{pk}} B \xrightarrow{B_{pk}} C \xrightarrow{C_{pk}} A$.\\
 4. Parties do exponentation.\\
-5. $A \xrightarrow{C_{pk}^{A_{sk}}} B, B \xrightarrow{A_{pk}^{B_{sk}}} C, C \xrightarrow{B_{pk}^{C_{sk}}} A$.\\
+5. $A \xrightarrow{C_{pk}^{A_{sk}}} B \xrightarrow{A_{pk}^{B_{sk}}} C \xrightarrow{B_{pk}^{C_{sk}}} A$.\\
 4. Parties do exponentation.\\
-5. $A \xrightarrow{{B_{pk}^{C_{sk}^{A_{sk}}}}} B, B \xrightarrow{C_{pk}^{A_{sk}^{B_{sk}}}} C, C \xrightarrow{A_{pk}^{B_{sk}^{C_{sk}}}} A$.\\
+5. $A \xrightarrow{{B_{pk}^{C_{sk}^{A_{sk}}}}} B \xrightarrow{C_{pk}^{A_{sk}^{B_{sk}}}} C \xrightarrow{A_{pk}^{B_{sk}^{C_{sk}}}} A$.\\
 \\The three parties now know a common secret ${B_{pk}^{C_{sk}^{A_{sk}}}} = C_{pk}^{A_{sk}^{B_{sk}}} = A_{pk}^{B_{sk}^{C_{sk}}}$
 \\Also seen on Figure \ref{fig:dh}.
 \\\\
 \begin{figure}[H]
     \centering
     \label{fig:dh}
-    \includegraphics[scale=0.5, angle=90]{dh.jpg}
+    \includegraphics[scale=0.3, angle=90]{dh.jpg}
     \caption{Diffie-Hellman key exchanges.}
 \end{figure}
 
@@ -88,12 +88,12 @@ Since in ECB the only method used is confusion, then other blocks would not be a
 the message m. 
 \begin{figure}[H]
     \centering
-    \label{fig:dh}
+    \label{fig:ecb_decrypt}
     \includegraphics[scale=0.5, angle=90]{ecb_decrypt.jpg}
     \caption{ECB decrypt}
 \end{figure}
 Hence only a single bit will be incorrect in the final message. The incorrect bit will occur in a single decryption block.
-\\\\
+\pagebreak
 Cipher block chaining (CBC) cipher mode.\\
 In CBC both diffusion and confusion are used. Meaning an incorrect bit will cause a cascade of incorrect bits
 on the condition that the invalid bit is not in the final decryption block which would mean that bit would be the only invalid bit.
@@ -102,7 +102,7 @@ If the invalid bit is in the first block. Then in our example a single bit in ev
 there could be 1 - 6 invalid bits in a 6 block CBC cipher.
 \begin{figure}[H]
     \centering
-    \label{fig:dh}
+    \label{fig:cbc_decrypt}
     \includegraphics[scale=0.5, angle=90]{cbc_decrypt.jpg}
     \caption{CBC decrypt.}
 \end{figure}
@@ -117,7 +117,7 @@ $c_2 = m_{0_0} \oplus m_{0_1} \oplus IV$ or $c_2 = m_{1_0} \oplus m_{1_1} \oplus
 this advesary has an non-neglible advantage.
 \begin{figure}[H]
     \centering
-    \label{fig:dh}
+    \label{fig:cbc_encrypt}
     \includegraphics[scale=0.5, angle=90]{cbc_enc.jpg}
     \caption{CBC encrypt mode with OTP.}
 \end{figure}
