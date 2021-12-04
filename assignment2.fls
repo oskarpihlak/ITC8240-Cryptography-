@@ -983,7 +983,6 @@ OUTPUT assignment2.pdf
 INPUT ./dh.jpg
 INPUT ./dh.jpg
 INPUT ./dh.jpg
-INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pdftex.map
 INPUT ./ecb_decrypt.jpg
 INPUT ./ecb_decrypt.jpg
 INPUT ecb_decrypt.jpg
@@ -991,6 +990,7 @@ INPUT ./ecb_decrypt.jpg
 INPUT ./ecb_decrypt.jpg
 INPUT ./ecb_decrypt.jpg
 INPUT ./ecb_decrypt.jpg
+INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pdftex.map
 INPUT ./cbc_decrypt.jpg
 INPUT ./cbc_decrypt.jpg
 INPUT cbc_decrypt.jpg
@@ -998,6 +998,27 @@ INPUT ./cbc_decrypt.jpg
 INPUT ./cbc_decrypt.jpg
 INPUT ./cbc_decrypt.jpg
 INPUT ./cbc_decrypt.jpg
+INPUT ./cbc_enc.jpg
+INPUT ./cbc_enc.jpg
+INPUT cbc_enc.jpg
+INPUT ./cbc_enc.jpg
+INPUT ./cbc_enc.jpg
+INPUT ./cbc_enc.jpg
+INPUT ./cbc_enc.jpg
+INPUT ./eq1.png
+INPUT ./eq1.png
+INPUT eq1.png
+INPUT ./eq1.png
+INPUT ./eq1.png
+INPUT ./eq1.png
+INPUT ./eq1.png
+INPUT ./eq2.png
+INPUT ./eq2.png
+INPUT eq2.png
+INPUT ./eq2.png
+INPUT ./eq2.png
+INPUT ./eq2.png
+INPUT ./eq2.png
 INPUT assignment2.aux
 INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc
 INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb
@@ -1008,12 +1029,16 @@ INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/typ
 INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb
+INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb
 INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb
 INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb
+INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmb.pfb
 INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmb.pfb
 INPUT /Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmr.pfb

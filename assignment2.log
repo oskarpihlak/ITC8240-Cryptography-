@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.10.17)  18 NOV 2021 17:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.10.17)  23 NOV 2021 23:48
 entering extended mode
 **/Users/opihlak/TalTech/itc8240_cryptography/assignment2.tex
 (/Users/opihlak/TalTech/itc8240_cryptography/assignment2.tex
@@ -628,14 +628,7 @@ LaTeX Font Info:    Changing ? sub-encoding to TS1/0 on input line 78.
 LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 325.
 )
 \c@Question=\count323
-) (assignment2.aux
-
-LaTeX Warning: Label `fig:dh' multiply defined.
-
-
-LaTeX Warning: Label `fig:dh' multiply defined.
-
-)
+) (assignment2.aux)
 \openout1 = `assignment2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -742,12 +735,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 File: dh.jpg Graphic file (type jpg)
 <use dh.jpg>
 Package pdftex.def Info: dh.jpg  used on input line 65.
-(pdftex.def)             Requested size: 232.86943pt x 481.79883pt.
-
-Overfull \hbox (26.55472pt too wide) in paragraph at lines 65--66
- [][] 
- []
-
+(pdftex.def)             Requested size: 139.72307pt x 289.08223pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--67
 
@@ -768,10 +756,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--67
 
  []
 
-[1
-
-{/Users/opihlak/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pdftex.map}]
-<ecb_decrypt.jpg, id=16, 465.74pt x 963.6pt>
+<ecb_decrypt.jpg, id=5, 465.74pt x 963.6pt>
 File: ecb_decrypt.jpg Graphic file (type jpg)
 <use ecb_decrypt.jpg>
 Package pdftex.def Info: ecb_decrypt.jpg  used on input line 92.
@@ -786,6 +771,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--94
 
  []
 
+[1
+
+{/Users/opihlak/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pdftex.map} <./dh.jpg>]
 <cbc_decrypt.jpg, id=17, 465.74pt x 963.6pt>
 File: cbc_decrypt.jpg Graphic file (type jpg)
 <use cbc_decrypt.jpg>
@@ -796,28 +784,41 @@ Overfull \hbox (26.55472pt too wide) in paragraph at lines 106--107
  [][] 
  []
 
+[2 <./ecb_decrypt.jpg>] [3 <./cbc_decrypt.jpg>]
+<cbc_enc.jpg, id=26, 465.74pt x 963.6pt>
+File: cbc_enc.jpg Graphic file (type jpg)
+<use cbc_enc.jpg>
+Package pdftex.def Info: cbc_enc.jpg  used on input line 121.
+(pdftex.def)             Requested size: 232.86943pt x 481.79883pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--108
-
+Overfull \hbox (26.55472pt too wide) in paragraph at lines 121--122
+ [][] 
  []
 
-[2 <./dh.jpg> <./ecb_decrypt.jpg>] [3 <./cbc_decrypt.jpg>] (assignment2.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+<eq1.png, id=27, 391.4625pt x 321.2pt>
+File: eq1.png Graphic file (type png)
+<use eq1.png>
+Package pdftex.def Info: eq1.png  used on input line 135.
+(pdftex.def)             Requested size: 195.73076pt x 160.59961pt.
+[4 <./cbc_enc.jpg> <./eq1.png>]
+<eq2.png, id=35, 391.4625pt x 321.2pt>
+File: eq2.png Graphic file (type png)
+<use eq2.png>
+Package pdftex.def Info: eq2.png  used on input line 146.
+(pdftex.def)             Requested size: 195.73076pt x 160.59961pt.
+ [5 <./eq2.png>] (assignment2.aux) ) 
 Here is how much of TeX's memory you used:
- 19373 strings out of 480862
- 370263 string characters out of 2901960
- 666954 words of memory out of 3000000
- 36586 multiletter control sequences out of 15000+600000
+ 19400 strings out of 480862
+ 370604 string characters out of 2901960
+ 668955 words of memory out of 3000000
+ 36609 multiletter control sequences out of 15000+600000
  425780 words of font info for 65 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  127i,12n,133p,592b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmr.pfb>
-Output written on assignment2.pdf (3 pages, 388806 bytes).
+{/Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy5.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmr.pfb>
+Output written on assignment2.pdf (5 pages, 502413 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
