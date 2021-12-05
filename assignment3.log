@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.10.17)  5 DEC 2021 01:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.7) (preloaded format=pdflatex 2021.10.17)  5 DEC 2021 13:59
 entering extended mode
 **/Users/opihlak/TalTech/itc8240_cryptography/assignment3.tex
 (/Users/opihlak/TalTech/itc8240_cryptography/assignment3.tex
@@ -731,21 +731,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-[1
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 43.
+(/Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/ts1ntxtlf.fd
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 43.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.0pt on input line 66.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.0pt on input line 66.
+ [1
 
-{/Users/opihlak/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pdftex.map}] (assignment3.aux) ) 
+{/Users/opihlak/Library/Application Support/MiKTeX/texmfs/data/pdftex/config/pdftex.map}]
+<task3_pic0.png, id=15, 481.8pt x 342.27875pt>
+File: task3_pic0.png Graphic file (type png)
+<use task3_pic0.png>
+Package pdftex.def Info: task3_pic0.png  used on input line 113.
+(pdftex.def)             Requested size: 240.8994pt x 171.13895pt.
+<task4_pic0.png, id=17, 457.71pt x 291.0875pt>
+File: task4_pic0.png Graphic file (type png)
+<use task4_pic0.png>
+Package pdftex.def Info: task4_pic0.png  used on input line 147.
+(pdftex.def)             Requested size: 228.85445pt x 145.54338pt.
+ [2 <./task3_pic0.png>]
+LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
+(Font)              scaled to size 10.0pt on input line 155.
+
+
+/Users/opihlak/TalTech/itc8240_cryptography/assignment3.tex:155: Package inputenc Error: Unicode character ∗ (U+2217)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155 ... let $g$ be a generator of $Z^{\text{∗}
+                                                  }_{p}$. Suppose we have th...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--165
+
+ []
+
+[3 <./task4_pic0.png>] (assignment3.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 19334 strings out of 480862
- 369723 string characters out of 2901960
- 658906 words of memory out of 3000000
- 36554 multiletter control sequences out of 15000+600000
- 423469 words of font info for 54 fonts, out of 8000000 for 9000
+ 19405 strings out of 480862
+ 370927 string characters out of 2901960
+ 664907 words of memory out of 3000000
+ 36614 multiletter control sequences out of 15000+600000
+ 434565 words of font info for 69 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 127i,6n,133p,592b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmr.pfb>
-Output written on assignment3.pdf (1 page, 102464 bytes).
+ 127i,9n,133p,592b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/tex-gyre/qtmr.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></Users/opihlak/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmr.pfb>
+Output written on assignment3.pdf (3 pages, 251083 bytes).
 PDF statistics:
- 20 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
